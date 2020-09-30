@@ -6,6 +6,11 @@ body {
   font-weight:400;
 }
 
+.fa {
+  color:#B9AA81;
+  font-size: 20px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   /*color:#6A4028;*/
   margin:0 0 20px;
@@ -38,6 +43,7 @@ h3, h4, h5, h6 {
 
 a {
   color:#781A3C;
+  /*color: #B9AA81;*/
   text-decoration:none;
 }
 
