@@ -36,11 +36,12 @@
 
         <h1>Research Interests</h1>
         <ul>
-          <li>Human-AI Interaction</li>
-          <li>Data Science</li>
+          <li>Exploratory Data Analysis</li>
+          <li>Data Science Collaboration</li>>
           <li>Scientific Reproducibility</li>
-          <li>Programming Tools</li>
-          <li>Hierarchical Representation Learning</li>
+          <li>User Interfaces in Programming Tools</li>
+          <li>Human-AI Interaction</li>
+          <!-- <li>Hierarchical Representation Learning</li> -->
 
         </ul>
         <p>
@@ -60,8 +61,8 @@
         <h1>Publications/Manuscripts</h1>
         <p>
           <b>Mining Collective Data Science Knowledge from Code on the Web to Suggest Alternative Data Analysis Approaches</b><br>
+          Mike Merril, <b>Ge Zhang</b>, Tim Althoff<br>
           In submission to WWW 2021<br>
-
         </p>
 
         <p>
@@ -83,6 +84,10 @@
           <!-- <embed src="./images/task_diagram.pdf" width="400px" height="200px" /> -->
           <p>
             Large scale analysis of source code, and in particular scientific source code, holds the promise of better understanding the data science process, identifying analytical best practices, and providing insights to the builders of scientific toolkits. However, large corpora have remained unanalyzed in depth, as descriptive labels are absent and require expert domain knowledge to generate. We propose a novel weakly supervised transformer-based architecture for computing joint representations of code from both abstract syntax trees and surrounding natural language comments. Our model enables us to examine a set of 118,000 Jupyter Notebooks to uncover common data analysis patterns. Focusing on notebooks with relationships to academic articles, we conduct the largest ever study of scientific code and find that notebook composition correlates with the citation count of corresponding papers.
+          </p>
+          <h2>MORAY</h2>
+          <p>
+            Data science projects are based on a series of decision points including data filtering, feature operationalization and selection, model specifications, and parametric assumptions. Importantly, although the robustness of such projects often hinges on their sensitivity to these decisions, prior work on Multiverse Analysis has shown that analysts' exploration is often limited based on their training, domain, and personal experience. This limited exploration of alternative analysis approaches can lead to highly sensitive or irreproducible outcomes and misguided decision-making. However, supporting novice analysts in exploring alternative approaches is challenging and typically requires expert feedback that is costly and hard to scale. Here, we leverage public collective data science knowledge in the form of code submissions to the popular data science platform Kaggle. Specifically, we mine this code repository for small differences between user submissions, which often highlight key decision points and alternative approaches in the respective analyses. We formulate the tasks of identifying decision points and suggesting alternatives as a classification task and a sequence-to-sequence prediction task. We leverage information on relationships within libraries through neural graph representation learning in a multitask learning framework. We demonstrate that our model, MORAY, is able to correctly predict decision points with state-of-the-art results. 
           </p>
       </section>
       <footer>
