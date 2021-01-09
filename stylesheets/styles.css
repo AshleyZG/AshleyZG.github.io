@@ -11,6 +11,12 @@ body {
   font-size: 20px;
 }
 
+.highlight-block {
+  border-top: medium solid #A53E41;
+  border-right: medium solid #A53E41;
+  border-bottom: medium solid #A53E41;
+}
+
 h1, h2, h3, h4, h5, h6 {
   /*color:#6A4028;*/
   margin:0 0 20px;
