@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Ashley G. Zhang</title>
+    <title>Ashley Ge Zhang</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -15,8 +15,8 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="">Ashley G. Zhang</a></h1>
-        <p>1st year PhD student @ UMich</p>
+        <h1><a href="">Ashley Ge Zhang</a></h1>
+        <p>2nd year PhD student @ UMich</p>
         <img src="./images/IMG_0028.jpg" alt="me at Hokkaido">
         <p><b>Email</b>: gezh@umich.edu</p>
         <!-- <p><a href="https://gezhangrp.com/cv.pdf">CV</a></p> -->
@@ -31,43 +31,36 @@
 
       <section>
         <h1>About Me</h1>
-        <p>I am a 1st year PhD student at <a href="https://www.si.umich.edu/">UMSI</a>, advised by <a href="https://from.so/Steve_Oney">Steve Oney</a>. I completed my B.S. at <a href="https://english.pku.edu.cn/">Peking University</a> in 2021.</p>
+        <p>I am a second year PhD student at <a href="https://www.si.umich.edu/">UMSI</a>, advised by <a href="https://from.so/Steve_Oney">Steve Oney</a>. I completed my B.S. at <a href="https://english.pku.edu.cn/">Peking University</a> in 2021.</p>
 
         <h1>Research Interests</h1>
         <ul>
-          <li>Data science collaboration</li>
-          <li>Collaobrative programming tools</li>
-          <li>Programming tools for education</li>
-          <!-- <li>Hierarchical Representation Learning</li> -->
-
+          <li>Communicating about code</li>
+          <li>Programming education at scale</li>
+          <li>Code Visualization</li>
         </ul>
         <p>
-          I am broadly interested in studying <b>the gap between human behavior and computer</b>. Today, as computers become more and more integrated into our daily life, it is important to figure out a way to bridge this gap. I design, build, and study tools to help machines to handle and interpret the complexibility in human behaviors, while applying techniques from <b>Human-Computer Interaction, Visualization, Machine Learning, and Software Engineering</b>.
-        </p>
 
-        <p>
-          Currently, I am particularlly interested in studying <b>data scientist behaviors</b>. With an exponential increase in available data and a growing culture of "data-driven discovery", analysis tools have enjoyed widespread innovation and adoption. However, robust processes to guide the use of these systems remain in relatively short supply. My work is related to the following problems that data scientists typically encounter when programming:
-          <ul>
-            <li><b>Reproducibility</b>. As data analysis is highly iterative and exploratory, there are many different paths to consider in parallel during analysis. Where to make alternative analysis decisions and what the alternatives could look like are considered part of the analysis process. However, these parallel paths are not always well reflected in data science practice. To support more robust data science, we need tools that enable multiverse authoring.</li>
-            <li><b>Collaboration</b>. Current linear layout in Jupyter Notebooks impedes with collaboration between data scientists. It requires a lot of navigation, memory and comparison to understand notebooks for data scientists and collaborators. Besides, editing could easily break the flow in the original notebook and cause interference with other collaborators' work. We need tools that support both synchronous and asynchronous collaboration.</li>
-            <!-- <li><b>Interactive Programming</b>. </li> -->
-          </ul>
-        </p>
+          People learn computer programming skills for a variety of professions. Communicating about code effectively is essential in learning programming. My work aim to help people 1) understand the rationale and incremental code changes, and 2) communicate about code at scale. 
 
+        
+        </p>
 
         <h1>Publications/Manuscripts</h1>
         <p>
+          <p>
+            <b>CORAL: COde RepresentAtion Learning with Weakly-Supervised Transformers for Analyzing Data Analysis</b><br>
+            <b>Ashley Ge Zhang</b>*, Mike Merrill*, Yang Liu, Jeffrey Heer, Tim Althoff<br>
+            EPJ Data Science 2022<br>
+            <a href="https://arxiv.org/pdf/2008.12828.pdf">[pdf]</a><a href="https://github.com/behavioral-data/CORAL">[code]</a>
+          </p>
+  
           <b>Mining Collective Data Science Knowledge from Code on the Web to Suggest Alternative Data Analysis Approaches</b><br>
-          Mike Merril, <b>Ge Zhang</b>, Tim Althoff<br>
+          Mike Merril, <b>Ashley Ge Zhang</b>, Tim Althoff<br>
           SIGKDD 2021<br>
           <a href="https://dl.acm.org/doi/pdf/10.1145/3447548.3467455">[pdf]</a>
         </p>
 
-        <p>
-          <b>CORAL: COde RepresentAtion Learning with Weakly-Supervised Transformers for Analyzing Data Analysis</b><br>
-          <b>Ge Zhang</b>*, Mike Merrill*, Yang Liu, Jeffrey Heer, Tim Althoff<br>
-          <a href="https://arxiv.org/pdf/2008.12828.pdf">[pdf]</a><a href="https://github.com/behavioral-data/CORAL">[code]</a>
-        </p>
 
 
         <h1>Research Projects</h1>
@@ -82,14 +75,14 @@
           <p>
             Data science projects are based on a series of decision points including data filtering, feature operationalization and selection, model specifications, and parametric assumptions. Importantly, although the robustness of such projects often hinges on their sensitivity to these decisions, prior work on Multiverse Analysis has shown that analysts' exploration is often limited based on their training, domain, and personal experience. This limited exploration of alternative analysis approaches can lead to highly sensitive or irreproducible outcomes and misguided decision-making. However, supporting novice analysts in exploring alternative approaches is challenging and typically requires expert feedback that is costly and hard to scale. Here, we leverage public collective data science knowledge in the form of code submissions to the popular data science platform Kaggle. Specifically, we mine this code repository for small differences between user submissions, which often highlight key decision points and alternative approaches in the respective analyses. We formulate the tasks of identifying decision points and suggesting alternatives as a classification task and a sequence-to-sequence prediction task. We leverage information on relationships within libraries through neural graph representation learning in a multitask learning framework. We demonstrate that our model, MORAY, is able to correctly predict decision points with state-of-the-art results. 
           </p>
-          <h2>Jupyter Notebook with parallel branches</h2>
+          <!-- <h2>Jupyter Notebook with parallel branches</h2>
           <img src="./images/dag_diagram.jpg">
           <p>
             (in progress)
           </p>
           <p>
             There are two common cases of collaboration in data science. One is pair authoring, where person A does most of the programming work, and person B gives A ideas about what decisions to make. The other one is divide and conquer, where collaborators each take part in the programming work (i.e., A working on data preprocessing and B working on modeling). To better support collaborative cognition in these two cases, we designed and developed an extension to Jupyter Notebook that helps users split work and create branches upon original code. First, we propose to modularize notebooks by adding wrappers outside cells so that users can split work based on modules. For each wrapper, users can specify input and output variable types in advance to avoid conflicts in collaborative editing, such as modifying shared variables without making copies. Second, we allow users to branch over the original code by subdividing cells horizontally in each wrapper, where they can explore alternatives easily in a clear and organized view without writing much explanation. Besides, to better support computational notebooks’ presentation nature, users can also manually collapse wrappers or hide branches to tailor the view for their needs. This extension provides easy navigation and clear presentation views for both technical and non-technical people. The modularization and branching features help programmers split work and control versions strategically in collaboration. 
-          </p>
+          </p> -->
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
