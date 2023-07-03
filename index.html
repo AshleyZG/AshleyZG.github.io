@@ -12,146 +12,37 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="">Ashley Ge Zhang 张歌</a></h1>
-        <img src="./images/head-shot-square copy.jpg" alt="Ge Zhang">
-        <p><b>Email</b>: gezh@umich.edu</p>
+        <h1>Ashley Ge Zhang 张歌</h1>
+        <img class="teaser-figure" id ="head-shot" src="./images/head-shot.jpg" alt="Ge Zhang">
         <p>
+          <a href="mailto:gezh@umich.edu" class="fa fa-envelope"></a>
           <a href="https://gezhangrp.com/assets/misc/cv.pdf" class="fa">CV</a>
           <a href="https://twitter.com/gezhang001" class="fa fa-twitter"></a>
           <a href="https://github.com/AshleyZG" class="fa fa-github"></a>
-          <a href="https://scholar.google.com/citations?hl=en&user=ssJeW18AAAAJ" class="fa fa-google scholar"></a>
+          <a href="https://scholar.google.com/citations?hl=en&user=ssJeW18AAAAJ" class="fa fa-graduation-cap"></a>
         </p>
-      </header>
-
-      <section>
-        <h1>About Me</h1>
-        <p>I am a second year PhD student at <a href="https://www.si.umich.edu/">UMSI</a>, advised by <a href="https://from.so/Steve_Oney">Steve Oney</a>. I completed my B.S. at <a href="https://english.pku.edu.cn/">Peking University</a> in 2021.</p>
-
-        <h1>Research Interests</h1>
-        <p>
-
-          Computer programming skills are useful for a wide range of professions. The ability to communicate effectively about code is essential to learning programming. For instructors, understanding the misconceptions and approaches in students' code helps them design instructional content and give useful feedback. For learners to understand programming tutorials, they need clear explanation of the rationale and code changes. I develop tools to support both synchronous and asynchronous communication about code at scale, through combining techniques from Human-Computer Interaction, Visualization, and Machine Learning.
-        
-        </p>
-
-
-
-
-      </section>
-      <footer>
-      </footer>
-    </div>
-    <div class="wrapper">
-      <section class="fill">
-
-        <h1>Publications</h1>
-        <div class="paper-list">
-
-          <div class="paper-item container">
-            <div class="paper-img">
-              <img  src="./images/RunEx.png">
-            </div>
-            <div class="paper-text">
-              <p >
-                <b>RunEx: Augmenting Regular-Expression Code Search with Runtime Values</b><br>
-                <b>Ashley Ge Zhang</b>, Yan Chen, Steve Oney<br>
-                <i>VL/HCC 2023</i><br>
-                Introduced RunEx, a novel code search tool for programming instructors, where they can effortlessly generate queries with minimal prior knowledge of code search and rapidly search through a large code corpus. RunEx consists of a syntax that augments regular expression with runtime values, and a user interface that enables instructors to construct runtime and syntax-based queries. 
-              </p>
-            </div>
-
-          </div>
-
-
-
-          <div class="paper-item container">
-            <div class="paper-img">
-              <img  src="./images/VizProg.png">
-            </div>
-            <div class="paper-text">
-              <p >
-                <b>VizProg: Identifying Misunderstandings by Visualizing Students' Coding Progress</b><br>
-                <b>Ashley Ge Zhang</b>, Yan Chen, Steve Oney<br>
-                <i>SIGCHI 2023</i><br>
-                <b>Honorable Mention Award</b><br>
-                <a href="https://gezhangrp.com/assets/pubs/CHI23-VizProg.pdf">[pdf]</a><br>
-                Proposed a VizProg, a system that visualizing students' progress in in-class programming exercises by encoding their status into a 2-D map view. A comparison experiment showed that VizProg helped instructors identify more misunderstandings accurately than the baseline system (a real-time version of <a href="https://roc-hci.com/wp-content/uploads/overcode-visualizing-programming-solutions_TOCHI-2015.pdf">OverCode</a>). 
-              </p>
-            </div>
-
-          </div>
-          <div class="paper-item container">
-            <div class="paper-img">
-              <img  src="./images/Colaroid.png">
-            </div>
-            <div class="paper-text">
-              <p >
-                <b>Colaroid: A Literate Programming Approach for Authoring Explorable Multi-Stage Tutorials</b><br>
-                April Wang, Andrew Head, <b>Ashley Ge Zhang</b>, Steve Oney, Christopher Brooks<br>
-                <i>SIGCHI 2023</i><br>
-                <b>Honorable Mention Award</b><br>
-                <a href="https://aprilwang.me/assets/pubs/CHI23_Colaroid.pdf">[pdf]</a><br>
-                Colaroid allows users to create web programming tutorials in augmented computational notebooks, where each cell represents a snapshot of the project. In each cell, users can check the complete source code context, highlighted code differences, and the executed outputs. Users can also load and tinker with any stage of the project in a linked IDE. 
-              </p>
-            </div>
-
-          </div>
-          <div class="paper-item container">
-            <div class="paper-img">
-              <img  src="./images/task_diagram.jpg">
-            </div>
-            <div class="paper-text">
-              <p >
-                <b>CORAL: COde RepresentAtion Learning with Weakly-Supervised Transformers for Analyzing Data Analysis</b><br>
-                <b>Ashley Ge Zhang</b>*, Mike Merrill*, Yang Liu, Jeffrey Heer, Tim Althoff<br>
-                <i>EPJ Data Science 2022</i><br>
-                <a href="https://arxiv.org/pdf/2008.12828.pdf">[pdf]</a><a href="https://github.com/behavioral-data/CORAL">[code]</a><br>
-                Proposed a novel weakly supervised transformer-based architecture for computing joint representations of code to uncover common data analysis patterns from a set of 118,000 Jupyter Notebooks.
-              </p>
-            </div>
-
-          </div>
-          <div class="paper-item container">
-            <div class="paper-img">
-              <img src="./images/moray_diagram.jpg">
-            </div>
-            <div class="paper-text">
-              <p>
-                <b>Mining Collective Data Science Knowledge from Code on the Web to Suggest Alternative Data Analysis Approaches</b><br>
-                Mike Merril, <b>Ashley Ge Zhang</b>, Tim Althoff<br>
-                <i>SIGKDD 2021</i><br>
-                <a href="https://dl.acm.org/doi/pdf/10.1145/3447548.3467455">[pdf]</a><br>
-                Proposed a graph neural network model to support novice data analysts in exploring alternative approaches by identifying decision points and suggesting alternatives in computational notebooks for data science. 
-              </p>
-    
-            </div>
-
-          </div>
+        <div id="news">
+          <h1>Latest News</h1>
         </div>
 
-
+      </header>
+      <section id="bio">
+        <p>I am a <span id="grade"></span> year PhD student at <a href="https://www.si.umich.edu/">UMSI</a>, advised by <a href="https://from.so/Steve_Oney">Steve Oney</a>. I completed my B.S. at <a href="https://english.pku.edu.cn/">Peking University</a> in 2021.</p>
+        <p id="research-interest">Computer programming skills are useful for a wide range of professions. The ability to communicate effectively about code is essential to learning programming. For instructors, understanding the misconceptions and approaches in students' code helps them design instructional content and give useful feedback. For learners to understand programming tutorials, they need clear explanation of the rationale and code changes. I develop tools to support both synchronous and asynchronous communication about code at scale, through combining techniques from Human-Computer Interaction, Visualization, and Machine Learning.</p>
       </section>
-    </div>
-    <div class="wrapper">
-      <section class="fill">
-        <h1>Posters and Workshops</h1>
-          <div class="paper-item container">
-            <div class="paper-img">
-              <!-- <img  src="./images/VizProg.png"> -->
-            </div>
-            <div class="paper-text">
-              <p >
-                <b>How Pairing by Code Similarity Influences Discussions in Peer Learning</b><br>
-                Shiyu Xu, <b>Ashley Ge Zhang</b>, Steve Oney<br>
-                <i>SIGCHI 2023 Late-Breaking Work</i><br>
-                <a href="https://gezhangrp.com/assets/pubs/CHILBW-23-Pairing.pdf">[pdf]</a><br>
-                Peer learning has been widely used in programming courses as a means of promoting active learning and enhancing students' programming skills. We investigated in what ways and to what extent groupding students with similar or different solutions affect the discussions that take place within groups.  
-              </p>
-            </div>
-
-          </div>
+      <section id="pubs-long">
+        <h1>Publications</h1>
       </section>
+      <section id="pubs-short">
+        <h1>Posters, Workshops, and On Going Work</h1>
+      </section>
+
     </div>
+    <div class="wrapper" id="misc"></div>
     <script src="javascripts/scale.fix.js"></script>
+    <script src="javascripts/utils.js"></script>
+    <script src="javascripts/main.js"></script>
+    <script src="javascripts/news.js"></script>
+    <script src="javascripts/pubs.js"></script>
   </body>
 </html>
