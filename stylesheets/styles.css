@@ -238,6 +238,12 @@ footer {
 .paper-text .title {
   font-size: 18px;
 }
+.paper-text .author::before {
+  content: ", ";
+}
+.paper-text .author.no-before::before {
+  content: "";
+}
 .paper-text .award {
   display: inline-block;
   padding: 5px 10px;
