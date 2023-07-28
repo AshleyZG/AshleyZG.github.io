@@ -29,7 +29,7 @@ const longPubs = [
         abstractHTML: "Introduced RunEx, a novel code search tool for programming instructors, where they can effortlessly generate queries with minimal prior knowledge of code search and rapidly search through a large code corpus. RunEx consists of a syntax that augments regular expression with runtime values, and a user interface that enables instructors to construct runtime and syntax-based queries.",
     // optional
         imgPath: "./images/RunEx.png",
-        // pdf: string,
+        pdf: "https://gezhangrp.com/assets/pubs/23-VLHCC-RunEx.pdf",
         // award: string,
         // video: string
     }, 
@@ -40,7 +40,7 @@ const longPubs = [
         abstractHTML: `Proposed a VizProg, a system that visualizing students' progress in in-class programming exercises by encoding their status into a 2-D map view. A comparison experiment showed that VizProg helped instructors identify more misunderstandings accurately than the baseline system (a real-time version of <a href="https://roc-hci.com/wp-content/uploads/overcode-visualizing-programming-solutions_TOCHI-2015.pdf">OverCode</a>). 
         </p>`,
         imgPath: "./images/VizProg.png",
-        pdf: "https://gezhangrp.com/assets/pubs/CHI23-VizProg.pdf",
+        pdf: "https://gezhangrp.com/assets/pubs/23-CHI-VizProg.pdf",
         award: "Honorable Mention Award",
         video: "https://youtu.be/nc6njbX0lVY",
     },
@@ -87,7 +87,7 @@ const shortPubs = [
         abstractHTML: "Peer learning has been widely used in programming courses as a means of promoting active learning and enhancing students' programming skills. We investigated in what ways and to what extent groupding students with similar or different solutions affect the discussions that take place within groups.",
         // optional
         imgPath: "images/how-pairing-LBW23.jpg",
-        pdf: "https://gezhangrp.com/assets/pubs/CHILBW-23-Pairing.pdf",
+        pdf: "https://gezhangrp.com/assets/pubs/23-CHILBW-Pairing.pdf",
         // award: string,
         // video: string
     }
