@@ -11,6 +11,7 @@ const MYNAME = "Ashley Ge Zhang";
  * optional
  *  imgPath: string,
  *  pdf: string,
+ *  slides: string,
  *  award: string,
  *  video: string
  * }
@@ -30,6 +31,7 @@ const longPubs = [
     // optional
         imgPath: "./images/RunEx.png",
         pdf: "https://gezhangrp.com/assets/pubs/23-VLHCC-RunEx.pdf",
+        slides: "https://gezhangrp.com/assets/pubs/23-VLHCC-RunEx-slides.pdf"
         // award: string,
         // video: string
     }, 
@@ -162,6 +164,22 @@ function createPdfSpan(pdf){
     return pdfSpan;
 }
 
+function createSlidesSpan(slides){
+    const slidesSpan = document.createElement('span');
+    slidesSpan.classList.add('link');
+
+    const slidesIcon = document.createElement('a');
+    slidesIcon.className = "fa fa-slideshare";
+    slidesIcon.href = slides;
+
+    const tag = document.createElement('span');
+    tag.innerText = 'Slides';
+    slidesIcon.appendChild(tag);
+    slidesSpan.appendChild(slidesIcon);
+
+    return slidesSpan;
+}
+
 function createVideoSpan(video){
     const videoSpan = document.createElement('span');
     videoSpan.classList.add("link");
@@ -201,6 +219,10 @@ function createPaperElement(paperItem){
     if ('pdf' in paperItem){
         const pdfSpan = createPdfSpan(paperItem.pdf);
         linkSpan.appendChild(pdfSpan);
+    }
+    if ('slides' in paperItem){
+        const slidesSpan = createSlidesSpan(paperItem.slides);
+        linkSpan.appendChild(slidesSpan);
     }
     if ('video' in paperItem){
         const videoSpan = createVideoSpan(paperItem.video);
