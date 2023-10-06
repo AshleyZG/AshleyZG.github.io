@@ -43,6 +43,7 @@ const longPubs = [
         </p>`,
         imgPath: "./images/VizProg.png",
         pdf: "https://gezhangrp.com/assets/pubs/23-CHI-VizProg.pdf",
+        slides: "https://gezhangrp.com/assets/pubs/23-CHI-VizProg-slides.pdf",
         award: "Honorable Mention Award",
         video: "https://youtu.be/nc6njbX0lVY",
     },
