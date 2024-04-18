@@ -24,6 +24,15 @@ const MYNAME = "Ashley Ge Zhang";
  */
 const longPubs = [
     {
+        title: "CFlow: Supporting Semantic Flow Analysis of Students' Code in Programming Problems at Scale", 
+        authors: [MYNAME, "Xiaohang Tang", "Steve Oney", "Yan Chen"],
+        venue: "L@S 2024",
+        abstractHTML: "Introdced CFlow, a system for creating understandable and navigable representations of code at scale. CFlow is able to represent thousands of code samples in a visualization that resembles a single code sample. This is in contrast to prior tools that either limit their focus on isolated statements (and thus discard the surrounding context of those statements) or cluster entire code samples (which can lead to large numbers of clusters -- for example, if there are n code features and m implementations of each, there can be m^n clusters).",
+        // imgPath: "",
+        pdf: "https://arxiv.org/pdf/2404.10089.pdf",
+        // slides: "",
+    },
+    {
         title: "RunEx: Augmenting Regular-Expression Code Search with Runtime Values",
         authors: [MYNAME, "Yan Chen", "Steve Oney"],
         venue: "VL/HCC 2023",
