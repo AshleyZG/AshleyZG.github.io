@@ -1,6 +1,7 @@
 const NewsDiv = document.getElementById("news");
 
 const news = [
+    {date: "May 2024", content: "Attending CHI 24 and starting my internship at Adobe!"}, 
     {date: "April 2024", content: "CFlow is conditionally accepted to L@S 2024!"},
     {date: "Oct 2023", content: "I will present RunEx at VL/HCC. See you all in Washington DC. "},
     {date: "June 2023", content: "One paper is conditionally accepted to VL/HCC 2023!"},
