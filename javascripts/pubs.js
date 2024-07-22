@@ -29,9 +29,9 @@ const longPubs = [
         venue: "L@S 2024",
         abstractHTML: "Introdced CFlow, a system for creating understandable and navigable representations of code at scale. CFlow is able to represent thousands of code samples in a visualization that resembles a single code sample. This is in contrast to prior tools that either limit their focus on isolated statements (and thus discard the surrounding context of those statements) or cluster entire code samples (which can lead to large numbers of clusters -- for example, if there are n code features and m implementations of each, there can be m^n clusters).",
         imgPath: "./images/CFlow.jpg",
-        pdf: "https://arxiv.org/pdf/2404.10089.pdf",
+        pdf: "https://gezhangrp.com/assets/pubs/24-L@S-CFlow.pdf",
         award: "Best Paper Award",
-        // slides: "",
+        slides: "https://gezhangrp.com/assets/pubs/24-L@S-CFlow-slides.pdf",
     },
     {
         title: "RunEx: Augmenting Regular-Expression Code Search with Runtime Values",
@@ -93,6 +93,14 @@ const longPubs = [
    
 ];
 const shortPubs = [
+    {
+        title: "Demonstration of CFlow: Supporting Semantic Flow Analysis of Students' Code in Programming Problems at Scale",
+        authors: [MYNAME, "Xiaohang Tang", "Steve Oney", "Yan Chen"],
+        venue: "L@S 2024 Demonstration",
+        abstractHTML: "A demonstration of my research full paper, CFlow, at L@S 2024.",
+        imgPath: "./images/CFlow.jpg",
+        pdf: "https://gezhangrp.com/assets/pubs/24-L@SDemo-CFlow.pdf"
+    },
     {
         title: "How Pairing by Code Similarity Influences Discussions in Peer Learning",
         authors: ["Shiyu Xu", MYNAME, "Steve Oney"],
