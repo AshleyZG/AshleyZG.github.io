@@ -189,6 +189,12 @@ header ul a strong {
   color:#222;
 }
 
+#bio button{
+  color: white!important;
+  font-family: 'Optima', sans-serif;
+  font-size: 14px;
+}
+
 section {
   /* width:500px; */
   width:65vw;
