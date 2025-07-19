@@ -1,6 +1,7 @@
 const NewsDiv = document.getElementById("news");
 
 const news = [
+    {date: "Jul 2025", content: "ConvoMap and SPARK are accepted to VL/HCC 2025!"},
     {date: "Jul 2024", content: "CFlow won Best Paper Award at L@S 2024!"},
     {date: "Jul 2024", content: "I'll present CFlow at L@S 2024. See you all in Atlanta!"},
     {date: "May 2024", content: "Attending CHI 24 and starting my internship at Adobe!"}, 

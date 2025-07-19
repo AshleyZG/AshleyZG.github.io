@@ -24,6 +24,22 @@ const MYNAME = "Ashley Ge Zhang";
  */
 const longPubs = [
     {
+        title: "ConvoMap: Interactive Visualizations for Exploring Complex Conversations in Multi-Agent Systems",
+        authors: [MYNAME, "Victor Soares Bursztyn", "Gromit Chan", "Shunan Guo", "Eunyee Koh", "Steve Oney", "Jane Hoffswell"],
+        venue: "VL/HCC 2025 (to appear)",
+        abstractHTML: "Developers often face challenges in understanding and debugging LLM-based multi-agent systems, due to the complexity of the system and the text-heavy outputs from agents. To address this issue, We build ConvoMap, a system that enables developers to explore and understand complex conversations in multi-agent systems through interactive visualizations.",
+        // optional
+        imgPath: "./images/ConvoMap.png",
+    },
+    {
+        title: "SPARK: Real-Time Monitoring of Multi-Faceted Programming Exercises",
+        authors: ["Yinuo Yang", MYNAME, "Steve Oney", "April Yi Wang"],
+        venue: "VL/HCC 2025 (to appear)",
+        abstractHTML: "SPARK enables instructors to monitor students' progress in multi-faceted, non-linear programming exercises in real-time. It provides an easy way for instructors to customize criterias for monitoring progress and identifying potential misunderstandings.",
+        // optional
+        imgPath: "./images/SPARK.jpg",
+    },
+    {
         title: "CFlow: Supporting Semantic Flow Analysis of Students' Code in Programming Problems at Scale", 
         authors: [MYNAME, "Xiaohang Tang", "Steve Oney", "Yan Chen"],
         venue: "L@S 2024",
