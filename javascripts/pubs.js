@@ -29,6 +29,7 @@ const longPubs = [
         venue: "VL/HCC 2025 (to appear)",
         abstractHTML: "Developers often face challenges in understanding and debugging LLM-based multi-agent systems, due to the complexity of the system and the text-heavy outputs from agents. To address this issue, We build ConvoMap, a system that enables developers to explore and understand complex conversations in multi-agent systems through interactive visualizations.",
         // optional
+        pdf: "https://gezhangrp.com/assets/pubs/25-VLHCC-ConvoMap.pdf",
         imgPath: "./images/ConvoMap.png",
         slides: "https://gezhangrp.com/assets/pubs/25-VLHCC-ConvoMap-slides.pdf",
     },
@@ -38,6 +39,7 @@ const longPubs = [
         venue: "VL/HCC 2025 (to appear)",
         abstractHTML: "SPARK enables instructors to monitor students' progress in multi-faceted, non-linear programming exercises in real-time. It provides an easy way for instructors to customize criterias for monitoring progress and identifying potential misunderstandings.",
         // optional
+        pdf: "https://gezhangrp.com/assets/pubs/25-VLHCC-SPARK.pdf",
         award: "Honorable Mention Award",
         imgPath: "./images/SPARK.jpg",
     },
