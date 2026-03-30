@@ -1,6 +1,7 @@
 const NewsDiv = document.getElementById("news");
 
 const news = [
+    {date: "Mar 2026", content: "CodeStream is accepted to CHI 2026! See you all in Barcelona!"},
     {date: "Oct 2025", content: "SPARK won Honorable Mention Award at VL/HCC 2025!"},
     {date: "Jul 2025", content: "ConvoMap and SPARK are accepted to VL/HCC 2025!"},
     {date: "Jul 2024", content: "CFlow won Best Paper Award at L@S 2024!"},
