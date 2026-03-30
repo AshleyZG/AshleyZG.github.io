@@ -29,9 +29,9 @@ const longPubs = [
         venue: "VL/HCC 2025",
         abstractHTML: "Developers often face challenges in understanding and debugging LLM-based multi-agent systems, due to the complexity of the system and the text-heavy outputs from agents. To address this issue, We build ConvoMap, a system that enables developers to explore and understand complex conversations in multi-agent systems through interactive visualizations.",
         // optional
-        pdf: "https://gezhangrp.com/assets/pubs/25-VLHCC-ConvoMap.pdf",
+        pdf: "/assets/pubs/25-VLHCC-ConvoMap.pdf",
         imgPath: "./images/ConvoMap.png",
-        slides: "https://gezhangrp.com/assets/pubs/25-VLHCC-ConvoMap-slides.pdf",
+        slides: "/assets/pubs/25-VLHCC-ConvoMap-slides.pdf",
     },
     {
         title: "SPARK: Real-Time Monitoring of Multi-Faceted Programming Exercises",
@@ -39,7 +39,7 @@ const longPubs = [
         venue: "VL/HCC 2025",
         abstractHTML: "SPARK enables instructors to monitor students' progress in multi-faceted, non-linear programming exercises in real-time. It provides an easy way for instructors to customize criterias for monitoring progress and identifying potential misunderstandings.",
         // optional
-        pdf: "https://gezhangrp.com/assets/pubs/25-VLHCC-SPARK.pdf",
+        pdf: "/assets/pubs/25-VLHCC-SPARK.pdf",
         award: "Honorable Mention Award",
         imgPath: "./images/SPARK.jpg",
     },
@@ -49,9 +49,9 @@ const longPubs = [
         venue: "L@S 2024",
         abstractHTML: "Introdced CFlow, a system for creating understandable and navigable representations of code at scale. CFlow is able to represent thousands of code samples in a visualization that resembles a single code sample. This is in contrast to prior tools that either limit their focus on isolated statements (and thus discard the surrounding context of those statements) or cluster entire code samples (which can lead to large numbers of clusters -- for example, if there are n code features and m implementations of each, there can be m^n clusters).",
         imgPath: "./images/CFlow.jpg",
-        pdf: "https://gezhangrp.com/assets/pubs/24-L@S-CFlow.pdf",
+        pdf: "/assets/pubs/24-L@S-CFlow.pdf",
         award: "Best Paper Award",
-        slides: "https://gezhangrp.com/assets/pubs/24-L@S-CFlow-slides.pdf",
+        slides: "/assets/pubs/24-L@S-CFlow-slides.pdf",
     },
     {
         title: "RunEx: Augmenting Regular-Expression Code Search with Runtime Values",
@@ -60,8 +60,8 @@ const longPubs = [
         abstractHTML: "Introduced RunEx, a novel code search tool for programming instructors, where they can effortlessly generate queries with minimal prior knowledge of code search and rapidly search through a large code corpus. RunEx consists of a syntax that augments regular expression with runtime values, and a user interface that enables instructors to construct runtime and syntax-based queries.",
     // optional
         imgPath: "./images/RunEx.png",
-        pdf: "https://gezhangrp.com/assets/pubs/23-VLHCC-RunEx.pdf",
-        slides: "https://gezhangrp.com/assets/pubs/23-VLHCC-RunEx-slides.pdf"
+        pdf: "/assets/pubs/23-VLHCC-RunEx.pdf",
+        slides: "/assets/pubs/23-VLHCC-RunEx-slides.pdf"
         // award: string,
         // video: string
     }, 
@@ -72,8 +72,8 @@ const longPubs = [
         abstractHTML: `Proposed a VizProg, a system that visualizing students' progress in in-class programming exercises by encoding their status into a 2-D map view. A comparison experiment showed that VizProg helped instructors identify more misunderstandings accurately than the baseline system (a real-time version of <a href="https://roc-hci.com/wp-content/uploads/overcode-visualizing-programming-solutions_TOCHI-2015.pdf">OverCode</a>). 
         </p>`,
         imgPath: "./images/VizProg.png",
-        pdf: "https://gezhangrp.com/assets/pubs/23-CHI-VizProg.pdf",
-        slides: "https://gezhangrp.com/assets/pubs/23-CHI-VizProg-slides.pdf",
+        pdf: "/assets/pubs/23-CHI-VizProg.pdf",
+        slides: "/assets/pubs/23-CHI-VizProg-slides.pdf",
         award: "Honorable Mention Award",
         video: "https://youtu.be/nc6njbX0lVY",
     },
@@ -119,7 +119,7 @@ const shortPubs = [
         venue: "L@S 2024 Demonstration",
         abstractHTML: "A demonstration of my research full paper, CFlow, at L@S 2024.",
         imgPath: "./images/CFlow.jpg",
-        pdf: "https://gezhangrp.com/assets/pubs/24-L@SDemo-CFlow.pdf"
+        pdf: "/assets/pubs/24-L@SDemo-CFlow.pdf"
     },
     {
         title: "How Pairing by Code Similarity Influences Discussions in Peer Learning",
@@ -128,7 +128,7 @@ const shortPubs = [
         abstractHTML: "Peer learning has been widely used in programming courses as a means of promoting active learning and enhancing students' programming skills. We investigated in what ways and to what extent groupding students with similar or different solutions affect the discussions that take place within groups.",
         // optional
         imgPath: "images/how-pairing-LBW23.jpg",
-        pdf: "https://gezhangrp.com/assets/pubs/23-CHILBW-Pairing.pdf",
+        pdf: "/assets/pubs/23-CHILBW-Pairing.pdf",
         // award: string,
         // video: string
     }
