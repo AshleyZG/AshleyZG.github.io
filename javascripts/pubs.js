@@ -30,7 +30,7 @@ const longPubs = [
         abstractHTML: "Developers often face challenges in understanding and debugging LLM-based multi-agent systems, due to the complexity of the system and the text-heavy outputs from agents. To address this issue, We build ConvoMap, a system that enables developers to explore and understand complex conversations in multi-agent systems through interactive visualizations.",
         // optional
         pdf: "/assets/pubs/26-CHI-CodeStream.pdf",
-        imgPath: "./images/CodeStream.pdf",
+        imgPath: "./images/CodeStream.png",
         // slides: "/assets/pubs/25-VLHCC-ConvoMap-slides.pdf",
     },
     {
