@@ -27,7 +27,7 @@ const longPubs = [
         title: "CodeStream: Augmenting Timelines with Code Annotation for Navigating Large Coding Histories",
         authors: [MYNAME, "Yan-Ru Jhou", "Yinuo Yang", "Shamita Rao", "Maryam Arab", "Yan Chen", "Steve Oney"],
         venue: "CHI 2026",
-        abstractHTML: "Developers often face challenges in understanding and debugging LLM-based multi-agent systems, due to the complexity of the system and the text-heavy outputs from agents. To address this issue, We build ConvoMap, a system that enables developers to explore and understand complex conversations in multi-agent systems through interactive visualizations.",
+        abstractHTML: "Timelines are a common way to visualize code histories, but existing timeline visualizations of code or document histories show only when and where edits occurred, not what changed. Without this context, it is difficult to answer key questions about how students invested effort or to infer their intentions. We present CodeStream, a visualization system that augments timelines with situational code annotations, whose granularity and visibility dynamically adapt to scale and interaction state.",
         // optional
         pdf: "/assets/pubs/26-CHI-CodeStream.pdf",
         imgPath: "./images/CodeStream.png",
