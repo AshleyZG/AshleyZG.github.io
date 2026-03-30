@@ -24,6 +24,16 @@ const MYNAME = "Ashley Ge Zhang";
  */
 const longPubs = [
     {
+        title: "CodeStream: Augmenting Timelines with Code Annotation for Navigating Large Coding Histories",
+        authors: [MYNAME, "Yan-Ru Jhou", "Yinuo Yang", "Shamita Rao", "Maryam Arab", "Yan Chen", "Steve Oney"],
+        venue: "CHI 2026",
+        abstractHTML: "Developers often face challenges in understanding and debugging LLM-based multi-agent systems, due to the complexity of the system and the text-heavy outputs from agents. To address this issue, We build ConvoMap, a system that enables developers to explore and understand complex conversations in multi-agent systems through interactive visualizations.",
+        // optional
+        pdf: "/assets/pubs/26-CHI-CodeStream.pdf",
+        imgPath: "./images/CodeStream.pdf",
+        // slides: "/assets/pubs/25-VLHCC-ConvoMap-slides.pdf",
+    },
+    {
         title: "ConvoMap: Interactive Visualizations for Exploring Complex Conversations in Multi-Agent Systems",
         authors: [MYNAME, "Victor Soares Bursztyn", "Gromit Chan", "Shunan Guo", "Eunyee Koh", "Steve Oney", "Jane Hoffswell"],
         venue: "VL/HCC 2025",
