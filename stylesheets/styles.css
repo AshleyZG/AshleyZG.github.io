@@ -11,6 +11,18 @@ body {
   font-size: 20px;
 }
 
+#job-market {
+  border-left: 4px solid #B9AA81;
+  background: #FAF8F2;
+  border-radius: 5px;
+  padding: 14px 20px;
+  margin: 10px 0 20px;
+}
+
+#job-market p {
+  margin: 0;
+}
+
 .highlight-block {
   border-top: medium solid #A53E41;
   border-right: medium solid #A53E41;

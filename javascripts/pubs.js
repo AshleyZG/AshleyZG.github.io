@@ -30,7 +30,7 @@ const longPubs = [
         abstractHTML: "Programming instructors have different philosophies on how to incorporate AI into their courses. Some instructors encourage students to use AI tools, while others discourage their use. However, it is difficult for instructors to understand how students are using AI tools in their programming exercises. Editrail enables instructors to explore and understand student-AI interactions in programming exercises.",
         // optional
         // pdf: "/assets/pubs/26-CHI-CodeStream.pdf",
-        // imgPath: "./images/CodeStream.png",
+        imgPath: "./images/Editrail.jpg",
         // slides: "/assets/pubs/25-VLHCC-ConvoMap-slides.pdf",
     },
     {
