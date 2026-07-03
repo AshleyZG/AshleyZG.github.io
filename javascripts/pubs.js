@@ -41,7 +41,7 @@ const longPubs = [
         // optional
         pdf: "/assets/pubs/26-CHI-CodeStream.pdf",
         imgPath: "./images/CodeStream.png",
-        // slides: "/assets/pubs/25-VLHCC-ConvoMap-slides.pdf",
+        slides: "/assets/pubs/26-CHI-CodeStream-slides.pdf",
     },
     {
         title: "ConvoMap: Interactive Visualizations for Exploring Complex Conversations in Multi-Agent Systems",
