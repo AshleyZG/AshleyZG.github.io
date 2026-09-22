@@ -26,7 +26,7 @@ const longPubs = [
     {
         title: "Editrail: Understanding AI Usage by Visualizing Student-AI Interaction in Code",
         authors: [MYNAME, "Yan-Ru Jhou", "Yinuo Yang", "Shamita Rao", "Maryam Arab", "Yan Chen", "Steve Oney"],
-        venue: "UIST 2026 (conditionally accepted)",
+        venue: "UIST 2026",
         abstractHTML: "Programming instructors have different philosophies on how to incorporate AI into their courses. Some instructors encourage students to use AI tools, while others discourage their use. However, it is difficult for instructors to understand how students are using AI tools in their programming exercises. Editrail enables instructors to explore and understand student-AI interactions in programming exercises.",
         // optional
         pdf: "/assets/pubs/26-UIST-Editrail.pdf",
