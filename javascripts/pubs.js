@@ -29,8 +29,9 @@ const longPubs = [
         venue: "UIST 2026 (conditionally accepted)",
         abstractHTML: "Programming instructors have different philosophies on how to incorporate AI into their courses. Some instructors encourage students to use AI tools, while others discourage their use. However, it is difficult for instructors to understand how students are using AI tools in their programming exercises. Editrail enables instructors to explore and understand student-AI interactions in programming exercises.",
         // optional
-        // pdf: "/assets/pubs/26-CHI-CodeStream.pdf",
+        pdf: "/assets/pubs/26-UIST-Editrail.pdf",
         imgPath: "./images/Editrail.jpg",
+        video: "https://youtu.be/a5htifv2bHA?si=AyEDv_NX_zw1Z8Ff",
         // slides: "/assets/pubs/25-VLHCC-ConvoMap-slides.pdf",
     },
     {
@@ -42,6 +43,7 @@ const longPubs = [
         pdf: "/assets/pubs/26-CHI-CodeStream.pdf",
         imgPath: "./images/CodeStream.png",
         slides: "/assets/pubs/26-CHI-CodeStream-slides.pdf",
+        video: "https://youtu.be/ThFmHHu7cP8?si=y9wKifvbcCa3Y9oA",
     },
     {
         title: "ConvoMap: Interactive Visualizations for Exploring Complex Conversations in Multi-Agent Systems",
