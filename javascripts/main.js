@@ -15,6 +15,6 @@ console.log(year, month);
 const grade = month>=9? year-2021+1:year-2021;
 
 const gradeSpan = document.getElementById("grade");
-gradeSpan.innerText = mapToOrder(grade);
+gradeSpan.innerText = "final-year";
 
 
