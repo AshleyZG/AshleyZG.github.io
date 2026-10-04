@@ -1,6 +1,7 @@
 const NewsDiv = document.getElementById("news");
 
 const news = [
+    {date: "Oct 2026", content: "Recognized as a Rising Star in Data Science by the University of Chicago!"},
     {date: "Jul 2026", content: "Editrail is conditionally accepted to UIST 2026! See you all in Detroit!"},
     {date: "Mar 2026", content: "CodeStream is accepted to CHI 2026! See you all in Barcelona!"},
     {date: "Oct 2025", content: "SPARK won Honorable Mention Award at VL/HCC 2025!"},
